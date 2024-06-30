@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer')
 const fs = require('fs')
+//  check push
 
 const writeStream = fs.createWriteStream('image-link.txt', 'utf-8')
 const baseUrl = 'https://jadinikah.co/'
